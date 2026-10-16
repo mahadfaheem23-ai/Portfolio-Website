@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CV</title>
+    <link rel="stylesheet" href="bootstrap-5.3.8-dist\bootstrap-5.3.8-dist\css\bootstrap.css">
+    <script src="bootstrap-5.3.8-dist/bootstrap-5.3.8-dist/js/bootstrap.js"></script>
+
+    <style>
+        body {
+            position: relative;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #010736;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            color: #FCF1D0;
+
+        }
+
+        .navigation {
+            position: sticky;
+            top: 7px;
+            box-sizing: border-box;
+            width: 50vw;
+            height: 80px;
+            border: 2px solid #FCF1D0;
+            margin: 16px auto;
+            border-radius: 40px;
+            padding-top: 12px;
+            z-index: 2;
+            background-color: #0d1c42bf;
+
+        }
+
+        .navigation>ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+
+
+
+        }
+
+        .navigation>ul>li {
+            padding: 14px;
+        }
+
+        .hero {
+            box-sizing: border-box;
+            position: relative;
+            display: flex;
+            margin-top: -114px;
+            width: 99vw;
+            height: 600px;
+            column-gap: 100px;
+            padding-right: 70px;
+            padding-left:70px ;
+            z-index: 1;
+        }
+
+        .navigation>ul>li>a {
+            text-decoration: none;
+            color:#FCF1D0;
+        }
+
+        .heroimage{
+            display: flex;
+            /* margin-top: 20px; */
+            
+            width: 900px;
+            height: 100%;
+            
+        }
+        .heroimage>img{
+            border-radius: 10px;
+        }
+
+
+        /* .head {
+
+            color: #FCF1D0;
+            margin-top: 300px;
+            margin-left: 90px;
+
+        } */
+         .hero>h1{
+            margin-top: 160px;
+            margin-left: 40px;
+            width: 100px;
+            color: #FCF1D0;
+         }
+
+
+
+
+        .cardsec {
+
+            background-color: #1a2e61;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            column-gap: 60px;
+            width: 99vw;
+            height: 600px;
+            
+
+        }
+
+        .card {
+            border-radius: 10px;
+            background-color:#0D1C42;
+            width: 380px;
+            height: 450px;
+
+            border: 2px solid #22396F;
+        }
+
+        .image {
+
+            width: auto;
+            height: 220px;
+            margin: 4px;
+            
+            border-radius: 10px;
+        }
+
+        .content {
+            width: auto;
+            height: 150px;
+            margin: 4px;
+            padding: 10px;
+
+
+        }
+
+        .para {
+            padding-top: 20px;
+        }
+
+        .card>button {
+            border-radius: 20px;
+            width: 100px;
+            height: 28px;
+            margin: 1px 135px;
+            color: #294369;
+            background-color: #0d6efd;
+            border: 2px solid #22396F;
+        }
+
+        .image>img {
+            width: 100%;
+            height: 220px;
+            border-radius: 9px;
+        }
+
+        .about {
+            box-sizing: border-box;
+            width: 99vw;
+            height: 500px;
+            
+            display: flex;
+            padding: 50px;
+            justify-content: center;
+            gap: 280px;
+        }
+
+        .aboutimg {
+            height: 400px;
+            width: 400px;
+            border: 2px solid #22396F;
+            border-radius: 10px;
+
+
+        }
+
+        .aboutcon {
+            height: 400px;
+            width: 550px;
+            
+            border-radius: 10px;
+
+        }
+        .aboutpara{
+            padding-top: 30px;
+            padding-left: 50px;
+        }
+        .aboutheading{
+            font-size: 25px;
+        }
+        .footer{
+            height: 200px;
+            width: 99vw;
+            background-color: #FCF1D0 ;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="navigation">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About Me</a></li>
+                <li><a href="">Contact us</a></li>
+            </ul>
+        </div>
+
+        <div class="hero">
+            
+                <h1>Hey It's MAHAD FAHIM</h1>
+            
+            <div class="heroimage">
+                <img src="m5.jpg" alt="" width="100%">
+            </div>
+
+        </div>
+
+
+        <div class="cardsec">
+            <div class="card">
+                <div class="image">
+                    <img src="m1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="heading">
+                        <h2>App development</h2>
+                    </div>
+                    <div class="para">
+                        <p>
+                            Turn your ideas into powerful, user-friendly mobile apps for Android and iOS. We develop
+                            reliable apps with modern designs and smooth performance.
+                        </p>
+                    </div>
+                </div>
+                <button>Read more</button>
+            </div>
+            <div class="card">
+                <div class="image">
+                    <img src="m2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="heading">
+                        <h2>Digitel Marketing</h2>
+                    </div>
+                    <div class="para">
+                        <p>
+                            Grow your brand and reach the right audience with effective digital marketing strategies.
+                            From social media to paid advertising, we help increase traffic, engagement, and sales.
+                        </p>
+                    </div>
+
+                </div>
+                <button class="btn">Read more</button>
+            </div>
+            <div class="card">
+                <div class="image">
+                    <img src="m3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="heading">
+                        <h2>Web development</h2>
+                    </div>
+                    <div class="para">
+                        <p>
+                            Build modern, responsive, and user-friendly websites that look great on every device. We
+                            create fast and professional websites tailored to your business needs.
+                        </p>
+                    </div>
+                </div>
+                <button>Read more</button>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="about">
+        <div class="aboutcon">
+            
+            <div class="aboutheading">
+                <h2>About Me</h2>
+
+            </div>
+            <div class="aboutpara" style="line-height: 1.5;">
+
+                <p><p>&nbsp;</p>
+                Hi, I'm Mahad Fahim
+                <p>&nbsp;</p>
+                I am a Computer Science student at City University in Peshawar with a deep interest in web development,
+                software engineering logic, and tech entrepreneurship. As the founder and operator of Stoke Gadgets, I
+                combine technical execution with practical product strategy—building responsive web applications while
+                actively managing digital operations and e-commerce platforms.
+                
+                My technical work spans frontend web development using modern HTML, CSS, Bootstrap, and JavaScript,
+                alongside fundamental systems engineering using C++ and x86 Assembly. I take a detail-oriented,
+                problem-solving approach to every project, whether optimizing client-side user interfaces or structuring
+                low-level program logic.</p>
+            </div>
+
+        </div>
+        <div class="aboutimg">
+
+        </div>
+
+
+
+
+    </div>
+    <div class="footer">
+
+    </div>
+
+
+
+</body>
+
+</html>
